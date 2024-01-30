@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foodpanda Delivery App:Register</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/cb/Foodpanda_logo_since_2017.jpeg" type="image/icon type">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/register.css">
+        <script>
+            $(function(){
+                $("#includedContent").load("navbar.html");
+            });
+        </script>
+        
+    </head>
+    
+    <body style="padding: 0;">
+        <div id="backgrounddiv">
+            <div id="includedContent"></div>
+            <div style="float:right;width: 100%;display: flex; justify-content: center;align-items: center; height: 500px;">     
+               
+                <fieldset style="width: 50%;">
+                    <legend>FRESH FOOD</legend>
+                    <div class="message">Welcome to Fresh Food!! For an enhanced experience, sign up today </div>
+                        <form style="display:flex;align-items: center; justify-content: center;" >
+                            <div style="width: 70%;">
+                                <div class="form-group formdiv">
+                                    <input type="email" value="" class="form-control" placeholder="Email Id"/>
+                                </div>
+                                <div class="form-group formdiv">
+                                    <input type="password" value=""  class="form-control"  placeholder="Password"/>
+                                </div>
+                                <div class="form-group formdiv">
+                                    <input type="password" value=""  class="form-control" placeholder="Confirm" />
+                                </div>
+                                <div class="input-group form-group"> 
+  
+                                    <!-- declaration for first field -->
+                                    <input type="text" class="form-control  
+                                            input-sm" placeholder="First Name" /> 
+                              
+                                    <!-- reducong the gap between them to zero -->
+                                    <span class="input-group-btn" 
+                                        style="width:0px;"></span> 
+                              
+                                    <!-- declaration for second field -->
+                                    <input type="text" class="form-control  
+                                            input-sm" placeholder="Last Name" /> 
+                                </div> 
+                                <div class="input-group form-group"> 
+                                    <label for="gender">Gender</label>&nbsp;
+                                    <label class="radio-inline"><input type="radio" name="optradio" checked>Male</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+                                   
+                                </div>
+                                <div style="text-align: center;">
+                                
+                                    
+                                    <input type="button" value="Register" class="btn btn-success" style="width: 25%;background-color: rgb(4, 74, 18);"/>
+                                </div>
+                            </div>  
+                        </form>                  
+                 
+                 </fieldset>                    
+                        
+           
+            </div>
+            
+           
+        
+    </body>
+</html>
